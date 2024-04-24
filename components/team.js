@@ -12,7 +12,7 @@ function team() {
      <div className='team-row'>
        <div className='team-section'>
         <div className='team-content'>
-            <h2>meet our team</h2>
+            <h2>meet our teams</h2>
                 <div className='team-images'>
                 <div className='team-col-1'>
                     <Image src={team1}/>
