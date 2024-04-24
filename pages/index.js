@@ -11,7 +11,7 @@ import logo6 from '../asset/images/logo6.png'
 import Swiper from "../components/SwiperSlider"
 import VerticalSwiper from "../components/vertical"
 import Layout from "../components/layout/index"
-import Video from "../components/layout/Video"
+import Video from "../components/layout/video"
 import Team from "../components/team"
 
 
