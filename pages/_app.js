@@ -1,7 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.css'
-import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import '../styles/globals.css';
 import "swiper/css/bundle";
-import "../styles/verticalSwiper.css"
+import "../styles/verticalSwiper.css";
 
 import { useEffect } from "react";
 
