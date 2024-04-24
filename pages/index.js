@@ -24,14 +24,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <Layout> 
+    <Layout>
     <main>
       {/* Banner Section */}
         <div className="banner-container">
             <h1 className="violet-banner">CRIT</h1>
             <h2 className="white-banner">NFT Collection</h2>
             <p className ="banner-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut lacinia dolor. Cras et lacus sed est pulvinar ornare at at tortor. Suspendisse potenti. Ut elementum tempor erat, volutpat dignissim ipsum tristique sed. Etiam risus nibh, scelerisque a efficitur dignissim, suscipit eu tortor.</p>
-            <button>BUY NOW</button> 
+            <button>BUY NOW</button>
         </div>
 
         {/* Carousel */}
@@ -70,11 +70,11 @@ export default function Home() {
 
         {/* Vertical Slider */}
         <div className="vertical-container">
-        <div class="row-vertical-slider">
-          <div class="column1">
+        <div className="row-vertical-slider">
+          <div className="column1">
             <VerticalSwiper/>
           </div>
-          <div class="column2">
+          <div className="column2">
           <Image src={mypic}/>
           </div>
         </div>
@@ -105,15 +105,15 @@ export default function Home() {
             <div>
                 <Image src={logo6}/>
             </div>
-          </div>        
+          </div>
         </div>
 
         {/* Our Team */}
         <Team/>
-        
+
 
     </main>
-    
+
   </Layout>
     </div>
   )
