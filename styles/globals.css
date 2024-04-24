@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Global Design */
+button {
+  background-color: #822e81;
+  border-radius: 5px;
+  padding: 5px 18px;
+  border: none;
+  color: #fff;
+  font-family: karla;
+  font-weight: 300;
+}
+button:hover {
+  background-color: #392061;
+}
+p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+}
+h1 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 400;
+}
+
+
+/* Navigation Bar */
+.navigation-menu {
+  padding: 0 50px;
+  height: auto;
+  background: rgba(57, 32, 97, 0.44);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+ .anchor-navigation {
+  padding: 0 20px 0 0;
+  text-decoration: none;
+  color: #fff;
+}
+.logo-navigation {
+  position: absolute;
+  padding: 20px 0;
+  color: #fff;
+}
+.ul-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  height: 80px;
+  align-items: center;
+}
+
+
+
+/* Banner Css */
+.banner-container {
+  padding: 13rem 8rem;
+  height: 640px;
+}
+.banner-container {
+  background-image: linear-gradient(90deg, rgba(26, 27, 37, 0.8) 43.25%, rgba(217, 217, 217, 0) 149.89%), url(../asset/images/background-banner.png);
+}
+.banner-content {
+  width: 37%;
+  color: #fff;
+}
+.violet-banner {
+  color: violet;
+  font-weight: 700;
+  font-size: 50px;
+}
+.white-banner {
+  color: #fff;
+  font-size: 50px;
+}
+
+
+/* Story Nft */
+.story-container {
+  padding: 5rem 8rem;
+  background-color: #1a1b25;
+}
+.david-goliath-nft {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.dragon-den-nft {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-story-david {
+  width: 37%;
+}
+.content-story-dragon {
+  width: 37%;
+}
+
+
+/* Carousel Nft */
+.carousel-container {
+  padding: 5rem 8rem 1rem 8rem;
+  background-color: #1a1b25;
+}
+ul.control-dots {
+  display: none;
+}
+
+/* Investor Section */
+.investor-container {
+  padding: 3rem 8rem;
+  background-color: #d1d1d3;
+}
+.logo-allignment {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+h2.investor-title {
+  color: #000;
+  margin-bottom: 3rem;
+}
+
+
+/* Vertical Slider */
+.vertical-container{
+  padding: 5rem 8rem 5rem 8rem;
+  background-color: #1a1b25;
+}
+.row-vertical-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* meet our team */
+.team-images {
+  display: flex;
+}
+.team-container {
+    background-color: #1a1b25;
+    padding: 5rem 8rem;
+    height: 100vh;
+    background-image: url(/_next/static/media/CRIT.f23678c6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+}
+.team-col-1,
+.team-col-2,
+.team-col-3,
+.team-col-4 {
+  background-color: #fff;
+  border-radius: 13rem;
+  overflow: hidden;
+  height: 25rem;
+  z-index: 1;
+  position: relative;
+}
+.team-col-1, 
+.team-col-3 {
+  margin-top: 22rem;
+}
+.team-content1 {
+  position: absolute;
+  top: 18rem;
+  text-align: center;
+  color: #fff;
+  background-color: hsl(264,17%,72%, 0.5);
+  overflow: hidden;
+  width: 100%;
+  padding: 1rem;
+}
+
+
+/* Footer */
+.footer-container {
+  padding: 3rem 8rem;
+  background-color: #392061;
+}
+.social-icon-container {
+  display: flex;
+}
+ul.footer-navigation {
+  display: flex;
+  color: #fff;
+  justify-content: flex-end;
+  align-content: flex-end;
+  flex-direction: column;
+  list-style-type: none;
+}
+.footer-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-social {
+  width: 25px;
+  margin: 0 8px;
+}
+.email-contact {
+  color: #fff;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}

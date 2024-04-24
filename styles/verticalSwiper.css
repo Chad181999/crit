@@ -1,0 +1,44 @@
+.vertical-container .swiper.swiper-initialized.swiper-vertical.swiper-pointer-events.swiper-backface-hidden.mySwiper {
+    height: 500px !important;
+  }
+
+  .vertical-container .swiper {
+    width: 100%;
+    height: 48rem;
+  }
+  
+  .vertical-container .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .vertical-container .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .vertical-container .swiper-slide {
+    width: 100% !important;
+}
+.column1 {
+  width: 31.5%;
+}
+.column2 {
+  width: 58%;
+  margin: 0 10px;
+}
