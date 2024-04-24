@@ -84,10 +84,9 @@ h2 {
 .banner-container {
   padding: 13rem 8rem;
   height: 640px;
-}
-.banner-container {
   background-image: linear-gradient(90deg, rgba(26, 27, 37, 0.8) 43.25%, rgba(217, 217, 217, 0) 149.89%), url(../asset/images/background-banner.png);
 }
+
 .banner-content {
   width: 37%;
   color: #fff;
@@ -189,7 +188,7 @@ h2.investor-title {
   z-index: 1;
   position: relative;
 }
-.team-col-1, 
+.team-col-1,
 .team-col-3 {
   margin-top: 22rem;
 }
